@@ -1,0 +1,44 @@
+[
+{
+"id": 1,
+"type": "Aguardando pagamento (on-hold)",
+"content": "Olá {billing_first_name},👋\nJá recebemos o seu pedido #{order_number} e seus produtos foram reservados. Mas, agora estamos aguardando a confirmação do pagamento.\n\nLink para pagamento abaixo👇\n{url_pagamento}\n\nPeço que Adicione o meu Contato para que eu possa te notificar sobre as atualizações do seu pedido. Em breve eu trago novidades\n\n*[Se já tiver efetuado o pagamento é só aguardar a compensação]",
+"status": "Ativo"
+},
+{
+"id": 2,
+"type": "Pagamento pendente (pending)",
+"content": "Olá {billing_first_name},👋\nJá recebemos o seu pedido #{order_number} e seus produtos foram reservados. Mas, agora estamos aguardando a confirmação do pagamento.\n\nLink para pagamento abaixo👇\n{url_pagamento}\n\nPeço que Adicione o meu Contato para que eu possa te notificar sobre as atualizações do seu pedido. Em breve eu trago novidades\n\n[Se já tiver efetuado o pagamento é só aguardar a compensação]*",
+"status": "Ativo"
+},
+{
+"id": 3,
+"type": "Pagamento aprovado (processing)",
+"content": "Olá {billing_first_name},👋\nVim aqui pra te contar uma boa notícia: o pagamento do seu pedido #{order_number} acabou de ser aprovado✅.\n\nVocê pode acompanhar as informações de entrega e o status de envio a qualquer momento no link abaixo!\n\n{info_pedido}\n\nVou pedir que Adicione meu contato para facilitar nossas conversas e em breve trago novidades sobre o envio do seu pedido.\n\nAgradecemos a escolha e qualquer dúvida estou por aqui!\nForte abraço.\n{url_site}",
+"status": "Ativo"
+},
+{
+"id": 4,
+"type": "Pedido concluído (completed)",
+"content": "Olá {billing_first_name},👋\n\nEstamos passando para conferir como foi sua experiência com o pedido #{order_number}, que acabou de ser concluído✅.\n\nLembramos que seu feedback é muito importante para nós! Não esqueça de deixá-lo aqui mesmo pelo WhatsApp📲.\n\nAgradecemos pela preferência em nossa loja e esperamos que tenha tido uma ótima experiência com o produto adquirido.\n\nForte abraço.\n{url_site}",
+"status": "Ativo"
+},
+{
+"id": 5,
+"type": "Pedido cancelado (cancelled)",
+"content": "Olá {billing_first_name},👋\nVim aqui pra te contar uma notícia ruim: o seu pedido #{order_number} acabou de ser cancelado❌.\n\nSe você esqueceu de pagar e ainda quiser os seus produtos, é só me avisar aqui. Mas, corre que eles estão em estoque novamente e pode ser que esgote.\n\nO resumo do seu pedido está em:\n{info_pedido}",
+"status": "Ativo"
+},
+{
+"id": 6,
+"type": "Pedido malsucedido (failed)",
+"content": "Olá {billing_first_name},👋\nVim aqui pra te contar uma notícia ruim: o seu pedido #{order_number} acabou de ser recusado❌.\n\nEstas recusas acontecem normalmente por falta de saldo no cartão, por análise de risco ou até por dados incorretos.\n\nSe quiser finalizar o seu pedido é só me chamar que tento aprovar ele aqui para você.\n\nO resumo do seu pedido está em:\n{info_pedido}",
+"status": "Ativo"
+},
+{
+"id": 7,
+"type": "Pedido reembolsado (refunded)",
+"content": "Olá {billing_first_name},👋\n\nO seu pedido #{order_number} acabou de ser reembolsado❌.\n\nSe aconteceu algum problema no sistema, pode me sinalizar que vai ser um prazer te auxiliar. Porém, se foi algum inconveniente ocorrido, gostaria que me mandasse o Feedback por aqui para que possamos sempre melhorar\n\n{url_site}",
+"status": "Ativo"
+}
+]
